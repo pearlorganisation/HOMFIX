@@ -88,14 +88,20 @@ const partners = [
     name: "NASA",
     logo: "https://i1.sndcdn.com/avatars-JUvAAPvAA86fmbVE-SH0i6g-t240x240.jpg",
   },
-  { name: "Partner 4", logo: "" },
-  { name: "Partner 5", logo: "" },
+  {
+    name: "HCL",
+    logo: "https://static.brandfinance.com/wp-content/uploads/2016/01/HCL-Logo.png",
+  },
+  {
+    name: "DELL",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBYLn7SfrkpimBb0NjgvFl_iO9R2SnZE1h5w&s",
+  },
 ];
 
 const Partners = () => {
   return (
     <section className="py-12 bg-gray-100">
-      <div className="container mx-32 text-center">
+      <div className="container mx-auto text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">
           Our Business Partners
         </h2>
