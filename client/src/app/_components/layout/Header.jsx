@@ -120,15 +120,34 @@ const Header = () => {
                   Services
                 </FlyoutLink>
               </li>
-
+              <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
+                <Link
+                  href="/project"
+                  className="hover:text-[#007bff]  block font-medium  text-[16px] "
+                >
+                 Our Project
+                </Link>
+              </li>
+              <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
+                <Link
+                  href="/floor-plan"
+                  className="hover:text-[#007bff]  block font-medium  text-[16px] "
+                >
+                 Floor Plans
+                </Link>
+              </li>
+            
               <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
                 <Link
                   href="javascript:void(0)"
                   className="hover:text-[#007bff]  block font-medium  text-[16px] "
                 >
-                  Pricing
+                 Cost Estimator
                 </Link>
               </li>
+           
+
+              
             </ul>
           </div>
 
@@ -263,14 +282,7 @@ const Header = () => {
                       Contact Us
                     </Link>
                   </li>
-                  <li className="border-b border-gray-300 py-3 px-3">
-                    <Link
-                      href="javascript:void(0)"
-                      className=" text-slate-700  font-semibold text-[18px]"
-                    >
-                      About Us
-                    </Link>
-                  </li>
+             
                 </ul>
               </div>
             </div>
