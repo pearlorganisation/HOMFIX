@@ -55,6 +55,7 @@ const floorPlans = [
     Floors: 5 
 
   }
+
 ];
 
 
@@ -94,22 +95,8 @@ console.log(selectedArea,"seletedarea")
         <div className="flex bg-gray-50 p-6">
           {/* Sidebar */}
           <FilterSidebar
-            filters={filters}
-            setFilters={setFilters}
-            priceRange={priceRange}
-            setPriceRange={setPriceRange}
-            selectedBedrooms={selectedBedrooms}
-            setSelectedBedrooms={setSelectedBedrooms}
-            selectedSpecials={selectedSpecials}
-            setSelectedSpecials={setSelectedSpecials}
-            selectedBhk={selectedBhk}
-            setSelectedBhk={setSelectedBhk}
-            selectDimension={selectDimension}
-            setSelectedDimension={setSelectedDimension}
-            selectedArea={selectedArea}
-            setSelectedArea={setSelectedArea}
-            selectedFloors={selectedFloors}
-            setSelectedFloors={setSelectedFloors}
+     
+     
           />
 
           {/* Main Content */}

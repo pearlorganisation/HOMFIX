@@ -341,7 +341,7 @@ const FlyoutLink = ({ children, href, FlyoutContent }) => {
 
 const SolutionsContent = () => {
   return (
-    <div className="min-w-[800px] ml-[400px]  rounded-md text-[#0E2337]  text-[15px] font-medium bg-white p-6 shadow-xl flex gap-20 text-start">
+    <div className="min-w-[800px] ml-[750px]  rounded-md text-[#0E2337]  text-[15px] font-medium bg-white p-6 shadow-xl flex gap-20 text-start">
       <div className="flex flex-col gap-2">
         <div className="text-slate-400 font-normal text-sm">
           LEAD MANAGEMENT

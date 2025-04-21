@@ -1,11 +1,11 @@
 import React from 'react'
-import FloorPlansPage from '../_components/home/floorPlans'
+import PropertiesPage from '../_components/filter'
 
 
 const page = () => {
   return (
 <>
-<FloorPlansPage/>
+<PropertiesPage/>
 </>
   )
 }
